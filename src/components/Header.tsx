@@ -5,7 +5,7 @@ import { SiInstagram } from "react-icons/si";
  function Header() {
     
   return (
-    <div className=' text-teal-800 flex justify-between jusitfy-center items-center text-sm xs:text-base px-2 py-2 '>
+    <div className=' text-teal-800 flex justify-between jusitfy-center items-center text-sm xs:text-base sm:text-lg px-10 py-2 '>
         <div>
         <h1 className='font-bold hover:underline'>Shubham Tewari </h1>
         </div>

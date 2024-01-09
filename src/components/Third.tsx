@@ -19,7 +19,7 @@ const Third = () => {
   return (
     <div className=' text-teal-800 px-10 flex flex-col font-bold md:px-20 lg:px-40' >
       
-    <h1 className='mx-auto  font-serif text-xl xs:text-2xl p-2 my-4'>Portfolio </h1>
+    <h1 className='mx-auto  font-serif text-xl xs:text-2xl sm:text-3xl p-2 my-4'>Portfolio </h1>
     <Slider {...settings}>
 
    { arr.map(({desc,img,add})=>(

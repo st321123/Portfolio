@@ -15,9 +15,9 @@ function Second() {
         <div className='bg-customBlue py-2 px-10 text-teal-800   flex flex-col items-center space-y-6 xs:text-center space-y-4 mt-0 xs:mt-0 h-screen'>
            
            <div className='p-4 flex flex-col space-y-2'>
-             <h1 className='text-xl xs:text-2xl font-serif font-bold'>Programming Profile</h1>
+             <h1 className='text-xl xs:text-2xl sm:text-3xl font-serif font-bold'>Programming Profile</h1>
             
-                <h1 className='font-mono text-xs xs:text-s '>
+                <h1 className='font-mono text-sm xs:text-base sm:text-lg '>
                     Solved over 250+ problems in leetcode
                 </h1>
                
@@ -26,18 +26,18 @@ function Second() {
                     <a  target="_blank" href="https://leetcode.com/Shubham_tewari/">
                         <img className="h-12 xs:h-20" src="https://portfolio01-sigma.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fleetcode.3a2ff5a4.png&w=128&q=75" alt="Image of leetcode icon" />
                     </a>
-                    <h1 className='font-mono'>
+                    <h1 className='font-mono text-sm xs:text-base sm:text-lg '>
                         Leetcode
                     </h1>
             </div>
             </div>
            
-            <div className='text-xl text-start xs:text-center font-serif'>
-                <h1>
+            <div className='text-xl xs:text-2xl sm:text-3xl text-start xs:text-center font-serif'>
+                <h1 className='p-2'>
                     Technologies I use
                 </h1>
                 <div className='flex items-center flex-wrap  m-2'>
-                <TbBrandCpp className=' text-gray-800 animate-bounce  px-2' size={60} />
+                <TbBrandCpp className='text-2xl text-gray-800 animate-bounce  px-2' size={60} />
                 <GrReactjs className=" text-gray-800  animate-spin   px-2 "  size={60} />
                 <TbBrandJavascript className=' text-gray-800 animate-bounce px-2' size={60} />
                 <PiFileHtml className=' text-gray-800 animate-bounce px-2' size={60} />
@@ -47,7 +47,7 @@ function Second() {
 
                 </div>
 
-                <h1>
+                <h1 className='p-2'>
                     Tools I use 
                 </h1>
                 <div className='flex m-2 '>

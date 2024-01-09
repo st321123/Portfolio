@@ -3,7 +3,7 @@ import React from 'react'
  function Footer() {
     
   return (
-    <div className=' bg-customFooter space-y-1 p-2 font-serif  mt-8 sm:flex sm:flex-col text-xs sm:text-sm md:text-xl  '>
+    <div className=' bg-customFooter space-y-1 p-2 font-serif  mt-8 sm:flex sm:flex-col text-xs  xs:text-sm sm:text-lg md:text-xl  '>
       <div className=' flex justify-between'>
        <h1>I'm always up for a chat ☕</h1>
       
