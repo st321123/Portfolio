@@ -11,7 +11,7 @@ function First() {
   };
 
   return (
-    <div className=' text-teal-800 relative  flex flex-col xs:items-center text-center  px-10   h-[calc(100vh-43px)] pt-2 '>
+    <div className=' text-teal-800  justify-center  flex flex-col sm:items-center text-center  px-10   h-[calc(100vh-43px)] pt-2 '>
 
       <div className=' flex flex-col items-center text-center mx-auto space-y-4'>
 
@@ -25,10 +25,10 @@ function First() {
       <span className='grow'>
 
       </span>
-      <div className=' flex flex-col xs:flex xs:flex-row  justify-between space-y-2 '  >
-        <button className='  hover:bg-teal-200 border-2 border-solid border-teal-400 rounded-md px-2 sm:px-4 sm:text-2xl mx-4 '><a href={shubham} download="ShubhamResume">Resume </a></button>
+      <div className=' flex flex-col sm:flex sm:flex-row  sm:justify-between sm:space-x-2 space-y-2 px-2'  >
+        <button className='xs:mx-auto xs:w-[240px] hover:bg-teal-200 border-2 border-solid border-teal-400 rounded-md px-2 sm:px-4 sm:text-2xl mx-4 '><a href={shubham} download="ShubhamResume">Resume </a></button>
 
-        <button onClick={scrollToBottom} className=' hover:bg-teal-200   bg-teal-400 border rounded-md  sm:px-4 sm:text-2xl px-2 mx-4 '>know more</button>
+        <button onClick={scrollToBottom} className=' xs:mx-auto xs:w-[240px] hover:bg-teal-200   bg-teal-400 border rounded-md  sm:px-4 sm:text-2xl px-2 mx-4 '>know more</button>
 
 
       </div>
