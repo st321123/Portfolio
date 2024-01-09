@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { PortfolioPhoto } from './PortfolioPhoto';
 import arr from "./details";
+import Footer from './Footer';
 const Third = () => {
   const settings = {
    dots: true,
@@ -16,7 +17,7 @@ const Third = () => {
   
 
   return (
-    <div className='text-teal-800 px-10 flex flex-col font-bold md:px-20 lg:px-40' >
+    <div className=' text-teal-800 px-10 flex flex-col font-bold md:px-20 lg:px-40' >
       
     <h1 className='mx-auto  font-serif text-xl xs:text-2xl p-2 my-4'>Portfolio </h1>
     <Slider {...settings}>
@@ -28,6 +29,7 @@ const Third = () => {
    }
 
     </Slider>
+    
     </div>
   );
 };

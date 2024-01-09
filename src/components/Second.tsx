@@ -12,7 +12,7 @@ function Second() {
 
     return (
         // text-teal-800 relative  flex flex-col xs:items-center text-center justify-center min-h-[364px]  px-10 py-2 space-y-4'
-        <div className='bg-customBlue min-h-[400px] py-2 px-10 text-teal-800   flex flex-col items-center xs:text-center space-y-4'>
+        <div className='bg-customBlue py-2 px-10 text-teal-800   flex flex-col items-center xs:text-center space-y-4 mt-0 xs:mt-0'>
            
            <div className='p-4 flex flex-col space-y-2'>
              <h1 className='text-xl xs:text-2xl font-serif font-bold'>Programming Profile</h1>
@@ -36,23 +36,23 @@ function Second() {
                 <h1>
                     Technologies I use
                 </h1>
-                <div className='flex items-center flex-wrap p-2 m-2'>
-                <TbBrandCpp className=' text-gray-800 animate-bounce' size={40} />
-                <GrReactjs className=" text-gray-800  animate-spin   "  size={40} />
-                <TbBrandJavascript className=' text-gray-800 animate-bounce' size={40} />
-                <PiFileHtml className=' text-gray-800 animate-bounce' size={40} />
-                <PiFileCssBold className=' text-gray-800 animate-bounce' size={40} />
-                <FaNode className=' text-gray-800 animate-bounce' size={40} />
-                <SiMongodb className=' text-gray-800 animate-bounce'size = {40} />
+                <div className='flex items-center flex-wrap  m-2'>
+                <TbBrandCpp className=' text-gray-800 animate-bounce  px-2' size={50} />
+                <GrReactjs className=" text-gray-800  animate-spin   px-2 "  size={50} />
+                <TbBrandJavascript className=' text-gray-800 animate-bounce px-2' size={50} />
+                <PiFileHtml className=' text-gray-800 animate-bounce px-2' size={50} />
+                <PiFileCssBold className=' text-gray-800 animate-bounce px-2' size={50} />
+                <FaNode className=' text-gray-800 animate-bounce px-2' size={50} />
+                <SiMongodb className=' text-gray-800 animate-bounce px-2'size = {50} />
 
                 </div>
 
                 <h1>
                     Tools I use 
                 </h1>
-                <div className='flex p-2 m-2 '>
-                <TbBrandVscode className=' text-gray-800 animate-bounce' size ={40} />
-                <FaGithubSquare className=' text-gray-800 animate-bounce' size ={40} />
+                <div className='flex m-2 '>
+                <TbBrandVscode className=' text-gray-800 animate-bounce px-2' size={50} />
+                <FaGithubSquare className=' text-gray-800 animate-bounce px-2' size={50} />
                 <span></span>
 
                 </div>
