@@ -12,7 +12,7 @@ function Second() {
 
     return (
         // text-teal-800 relative  flex flex-col xs:items-center text-center justify-center min-h-[364px]  px-10 py-2 space-y-4'
-        <div className='bg-customBlue py-2 px-10 text-teal-800   flex flex-col items-center space-y-6 xs:text-center space-y-4 mt-0 xs:mt-0 h-screen'>
+        <div className='bg-customBlue py-2 px-10 text-teal-800   flex flex-col items-center space-y-6 xs:text-center space-y-4  h-screen'>
            
            <div className='p-4 flex flex-col space-y-2'>
              <h1 className='text-xl xs:text-2xl sm:text-3xl font-serif font-bold'>Programming Profile</h1>
