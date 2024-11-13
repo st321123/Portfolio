@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Header from './Header';
-import shubham from "../../Shubham Tewari Resume (1).pdf";
+import shubham from "./resume/shubham.pdf";
 
 function First() {
 
